@@ -3,6 +3,7 @@
 `Problems Pages` is a custom Zabbix dashboard widget based on the built-in Problems widget.
 
 It adds simpler page navigation for time-descending problem lists while avoiding the expensive behavior of loading the full problem result set up to `search_limit` on every page change.
+
 <img width="2285" height="1028" alt="problems-pages-example1" src="https://github.com/user-attachments/assets/04fbba4c-0c1f-4527-95a4-bfc8ae3f6771" />
 
 
