@@ -5,7 +5,7 @@
 	"name": "Problems Pages",
 	"namespace": "ProblemsPages",
 	"version": "7.0.0",
-	"author": "Zabbix",
+	"author": "Opensource ICT Solutions B.V.",
 	"description": "Displays currently open problems with quick access links to the problem details.",
 	"url": "web_interface/frontend_sections/dashboards/widgets/problems",
 	"widget": {
