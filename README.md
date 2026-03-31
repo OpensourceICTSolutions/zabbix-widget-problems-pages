@@ -34,7 +34,7 @@ In practice, this means the main problems query is bounded with `LIMIT n` instea
 
 ## Installation
 
-1. Copy the `problems-pages` directory into your Zabbix modules/widgets location.
+1. Copy the `problems-pages` directory into your Zabbix modules location.
 2. Make sure the final folder name remains `problems-pages`.
 3. Ensure the web server user can read the files.
 4. Open Zabbix.
@@ -88,18 +88,8 @@ Follow-up queries for the currently fetched or visible rows are still expected. 
 
 ## Known Limitations
 
-- This package has not been linted locally in this workspace because PHP CLI is not available here.
-- The workspace used to prepare this module is not currently a Git repository, so the files are ready for Git upload but were not committed or pushed from here.
 
-## Suggested Git Upload Flow
-
-1. Create a new Git repository.
-2. Copy this `problems-pages` folder into that repository.
-3. Review the files.
-4. Commit the module.
-5. Push to your remote hosting service.
 
 ## Credits
 
 - Based on the Zabbix Problems widget structure.
-- Customized and packaged as `Problems Pages` for bounded page loading and dashboard pager support.
