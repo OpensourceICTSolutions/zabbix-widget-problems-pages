@@ -1,0 +1,35 @@
+{
+	"manifest_version": 2.0,
+	"id": "problemspages",
+	"type": "widget",
+	"name": "Problems Pages",
+	"namespace": "ProblemsPages",
+	"version": "1.0",
+	"author": "Zabbix",
+	"description": "Displays currently open problems with quick access links to the problem details.",
+	"url": "web_interface/frontend_sections/dashboards/widgets/problems",
+	"widget": {
+		"js_class": "CWidgetProblemsPages",
+		"in": {
+			"hostids": {
+				"type": "_hostids"
+			},
+			"groupids": {
+				"type": "_hostgroupids"
+			}
+		},
+		"out": [
+			{
+				"type": "_eventid"
+			}
+		]
+	},
+	"actions": {
+		"widget.problemspages.view": {
+			"class": "WidgetView"
+		}
+	},
+	"assets": {
+		"js": ["class.widget.js"]
+	}
+}
