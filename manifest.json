@@ -4,7 +4,7 @@
 	"type": "widget",
 	"name": "Problems Pages",
 	"namespace": "ProblemsPages",
-	"version": "1.0",
+	"version": "7.0.0",
 	"author": "Zabbix",
 	"description": "Displays currently open problems with quick access links to the problem details.",
 	"url": "web_interface/frontend_sections/dashboards/widgets/problems",
